@@ -123,7 +123,7 @@ class Gifts:
 			d = input("Length of gift " + str(i+1) + " on longest side: ")
 			A += Area.sphere(3.14 * d)
 		return(A)
-
+	@staticmethod
 	def irr(num):
 		print("Enter the dimensions of the boxes that the irregularly shaped gifts are in")
 		A = 0
